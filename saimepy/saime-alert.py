@@ -1,5 +1,3 @@
-import smtplib
-from email.mime.text import MIMEText
 import requests
 import time
 import firebase_admin
@@ -65,8 +63,8 @@ if __name__ == '__main__':
     print("=======================================================\n")
     check_and_update()
     schedule.every().minute.do(check_and_update).tag('saimecheck')
-
     while True:
         schedule.run_pending()
         time.sleep(1)
+
     

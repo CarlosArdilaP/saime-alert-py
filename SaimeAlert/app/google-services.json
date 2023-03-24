@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "183778236237",
+    "firebase_url": "https://saime-alert-default-rtdb.firebaseio.com",
+    "project_id": "saime-alert",
+    "storage_bucket": "saime-alert.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183778236237:android:e0d61b7d2ded2b7d3ec904",
+        "android_client_info": {
+          "package_name": "com.example.saimealert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183778236237-vu4an40cc1ddi0qnrhtdi2277dfc95as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCranmLR6zaRpCtH1NmyGS5lnbw5vZCAQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183778236237-vu4an40cc1ddi0qnrhtdi2277dfc95as.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
