@@ -6,10 +6,13 @@ from firebase_admin import db
 import schedule
 from datetime import datetime, timezone
 import functools
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 
 cred = credentials.Certificate('./saime-alert-firebase-adminsdk-yriht-20630a8f59.json')
-firebase_admin.initialize_app(cred, {'databaseURL': 'https://saime-alert-default-rtdb.firebaseio.com/'})
+firebase_admin.initialize_app(cred, {'databaseURL': os.getenv('FIREBASEDB')})
 
 def catch_exceptions(cancel_on_failure=False):
     def catch_exceptions_decorator(job_func):
